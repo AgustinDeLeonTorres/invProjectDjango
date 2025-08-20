@@ -1,0 +1,29 @@
+@"
+# Django
+*.pyc
+*__pycache__/
+db.sqlite3
+migrations/
+
+# Environment
+.env
+.env.local
+
+# Pipenv
+Pipfile.lock
+.python-version
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Static files
+/staticfiles/
+/media/
+"@ 
